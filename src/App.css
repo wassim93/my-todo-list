@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  border-radius: 8px;
+  height: 150px;
+  width: 30%;
+}
+.done {
+  background-image: linear-gradient(315deg, #10be90 15%, #62f7cf 70%);
+}
+.in-progress {
+  background-image: linear-gradient(315deg, #f7ad4d 15%, #feca86 70%);
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  justify-content: end;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
